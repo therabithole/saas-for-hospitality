@@ -1,0 +1,84 @@
+{
+  "name": "trippy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@sentry/react": "^6.8.0",
+    "@sentry/tracing": "^6.8.0",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.16.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "all-the-cities": "^3.1.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "cities-with-1000": "^1.0.4",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.9",
+    "formik-material-ui": "^3.0.1",
+    "google-maps-react": "^2.0.6",
+    "helmet": "^3.9.0",
+    "joi": "^13.1.0",
+    "joi-browser": "^13.4.0",
+    "joi-objectid": "^2.0.0",
+    "joi-password-complexity": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.14",
+    "mongoose-type-email": "^1.1.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-gyp": "^7.1.2",
+    "node-pre-gyp": "^0.17.0",
+    "nodemon": "^2.0.6",
+    "prop-types": "^15.6.2",
+    "pug": "^3.0.2",
+    "query-string": "^6.13.7",
+    "raven-js": "^3.26.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-dual-range-slider": "^1.0.0",
+    "react-icons": "^4.2.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select": "^3.1.1",
+    "react-toastify": "^4.1.0",
+    "web-vitals": "^0.2.4",
+    "winston": "^2.4.5",
+    "winston-mongodb": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
